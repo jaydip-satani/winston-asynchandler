@@ -1,4 +1,4 @@
-# AsyncHandler
+# AsyncHandler [![npm version](https://img.shields.io/npm/v/winston-asynchandler.svg)](https://www.npmjs.com/package/winston-asynchandler) [![Support via Razorpay](https://img.shields.io/badge/Buy%20Me%20a%20Chai-%E2%98%95-orange?style=for-the-badge)](https://razorpay.me/@jaydipsatani)
 
 A **production-grade async error handler** for Express.js, built with:
 

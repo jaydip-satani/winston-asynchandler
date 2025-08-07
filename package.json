@@ -18,12 +18,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaydip-satani/asynchandler.git"
+    "url": "git+https://github.com/jaydip-satani/winston-asynchandler"
   },
   "bugs": {
-    "url": "https://github.com/jaydip-satani/asynchandler/issues"
+    "url": "https://github.com/jaydip-satani/winston-asynchandler/issues"
   },
-  "homepage": "https://github.com/jaydip-satani/asynchandler#readme",
+  "homepage": "https://github.com/jaydip-satani/winston-asynchandler#readme",
   "dependencies": {
     "winston": "^3.10.0"
   },
