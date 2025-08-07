@@ -12,7 +12,7 @@ A **production-grade async error handler** for Express.js, built with:
 ## 📦 Installation
 
 ```bash
-npm install asynchandler
+npm install winston-asynchandler
 ```
 
 ## 🚀 Features
@@ -29,7 +29,7 @@ npm install asynchandler
 ## 📁 Project Structure (inside package)
 
 ```bash
-node_modules/asynchandler/
+node_modules/winston-asynchandler/
 ├── src/
 │   ├── index.js         # asyncHandler()
 │   ├── logger.js        # Winston logger setup
@@ -53,7 +53,7 @@ app.get("/user", async (req, res) => {
 With `asynchandler`:
 
 ```js
-import { asyncHandler } from "asynchandler";
+import { asyncHandler } from "winston-asynchandler";
 
 app.get(
   "/user",
@@ -71,7 +71,7 @@ app.get(
 
 ```js
 import express from "express";
-import { asyncHandler, ApiError, ApiResponse } from "asynchandler";
+import { asyncHandler, ApiError, ApiResponse } from "winston-asynchandler";
 
 const app = express();
 
