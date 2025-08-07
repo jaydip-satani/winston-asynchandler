@@ -1,0 +1,31 @@
+{
+  "name": "winston-asynchandler",
+  "version": "1.0.0",
+  "description": "Production-grade async error handler for Express with Winston logger and standard API responses.",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "express",
+    "async",
+    "error-handler",
+    "middleware",
+    "json-response",
+    "winston",
+    "api",
+    "logger"
+  ],
+  "author": "Jaydip Satani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydip-satani/asynchandler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaydip-satani/asynchandler/issues"
+  },
+  "homepage": "https://github.com/jaydip-satani/asynchandler#readme",
+  "dependencies": {
+    "winston": "^3.10.0"
+  },
+  "types": "winston-asynchandler.d.ts"
+}
